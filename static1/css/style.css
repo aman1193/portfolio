@@ -1,0 +1,136 @@
+body{
+font: 15px/1.5 Arial, Helvetica, sans-serif;
+background-color: #f4f4f4;
+
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+header{
+background-color: #35424a;
+color:#ffffff;
+padding-top: 30px;
+min-height: 105px;
+border-bottom: #90EE90 5px solid;
+}
+
+header a{
+	text-decoration: none;
+	color: #ffffff;
+
+
+}
+
+header ul{
+padding: 0;
+margin: 0;
+
+}
+
+header li{
+float: left;
+display: inline;
+padding: 0 20px 0 20px;
+
+}
+
+header #brand{
+	float: left;
+}
+
+header nav{
+	float: right;
+	margin-top: 30px;
+}
+
+header .highlight, header .current a{
+	color: #90EE90;
+	font-weight: bold;
+
+}
+
+header a:hover{
+color:#cccccc;
+font-weight: bold;
+
+}
+
+#show{
+  border: 4px double white;
+	border-top: #90EE90 5px solid;
+	font: 20px/1.5 Arial, Helvetica, sans-serif;
+	min-height: 300px;
+	min-width: 100px;
+	background-color: #cccccc;
+	text-align: center;
+	color: black; 
+
+}
+
+#show a{
+text-decoration: none;
+color: black;
+font-size: 120%;
+font-family: Helvetica;
+shape-outside: all;
+}
+
+#show h1{
+	font-size:200% 
+
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.but {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.but:hover{
+	background-color: white;
+	font-weight: bold;
+}
+
+.but span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.but span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.but:hover span {
+  padding-right: 25px;
+}
+
+.but:hover span:after {
+  opacity: 1;
+  right: 0;
+}

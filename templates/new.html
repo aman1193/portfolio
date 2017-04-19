@@ -1,0 +1,102 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<title>Aman Srivastava</title>
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<style>
+	.tmargin50{
+    margin-top:50px;
+}
+.tmargin10{
+    margin-top:10px;
+}
+</style>
+</head>
+<body style="background-color: black">
+<header>
+<div class="container">
+  <div id="brand">
+  	<h1><span class="highlight">Aman</span> Srivastava
+  	</h1>
+	</div>
+	<nav>
+	<ul>
+	<li class="current"><a href="/">HOME</a></li>
+	<li><a href="https://drive.google.com/open?id=0B4v6Tb8hzWztX3JIY3J2Q1JjUkE">AMCAT REPORT</a></li>
+	<li><a href="https://www.facebook.com/loveuantola">FACEBOOK</a></li>
+	<li class="current"><a href="https://drive.google.com/open?id=0B4v6Tb8hzWztQlIyNWY5Z1hIM0k">CV</a></li>
+	</ul>
+	</nav>
+	</div>
+	</header>
+	<section id="show" style="background: url({% static 'images/5.jpg' %});">
+	<div class="container">
+	<h1><strong>Hello There!</strong></h1>
+	<p><em><strong> <blockquote>Welcome to a very naked portfolio of a self-taught,self-motivated designer.I am a pixel perfectionist who plays hard and works harder!</blockquote></strong></em></p>
+	
+<button class="but" style="vertical-align:middle"><a href="https://www.facebook.com/loveuantola"><span>Say Hi!</span>  </a> </button>
+	
+	</div>
+
+
+</section>
+<br><br>
+<section style="background: url({% static 'images/5.jpg' %}); border: 4px double white">
+	<div class="container" style="font: 30px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: left;color: black
+text-shadow: 0px 2px 3px none;">
+                    <div class="row">
+                       
+                            <div class="col-md-6">
+                               <h3 class="text-center">Who I Am? </h3>
+                                    <hr style="background-color: black">
+                                 
+                   					<p style="font-size: 20px ">I like to learn new frameworks on my own.<br><br>I am currently working on Django and I can make static websites as of now! <br><br>
+                   					I am in search of a Company where I can kick-start my career and use my skills for developing impactful user experiences!</p>
+                               
+                            </div>
+                            <div class="col-md-4">
+                                 <img src="{% static 'images/a.jpg' %}"
+                                     class="img-rounded tmargin10" alt="Cinque Terre" width="100%" height="100%">
+
+                                   
+                              </div>
+                       
+                    </div><!-- End off row -->
+                </div>
+                <br><br>
+                
+<div class="container" style="font: 30px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: left;color: black;
+text-shadow: 0px 2px 3px white;">
+                    <div class="row">
+                            <div class="col-md-3">
+                                 <img src="{% static 'images/b.jpg' %}"
+                                     class="img-rounded tmargin10" alt="Cinque Terre" width="100%" height="100%">
+                              </div>
+                            
+            <div class="col-md-8 text-center">
+                <h3>Technical Summary</h3>
+                <hr>
+                <dl class="dl-horizontal lead">
+                    <dt>Frontend:</dt>
+                    <dd>HTML,CSS,Bootstrap</dd><br>
+                    <dt>Backend:</dt>
+                    <dd>Basics of Django and Flask!</dd><br>
+                    <dt>Other:</dt>
+                    <dd>Basics of Python,Hybrid apps using Phonegap</dd><br>
+                    <dt>Project:</dt>
+                    <dd>Android app on Health Care using Phonegap</dd>
+                </dl>
+                            </div>
+                            
+                       
+                    </div><!-- End off row -->
+                </div>
+                </section>
+</body>
+</html>
